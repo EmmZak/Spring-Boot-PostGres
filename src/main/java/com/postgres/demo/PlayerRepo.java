@@ -6,6 +6,5 @@ import com.postgres.demo.Player;
 
 @Repository
 public interface PlayerRepo extends JpaRepository<Player, Long>{
-
     Player findByName(String name);
 }
